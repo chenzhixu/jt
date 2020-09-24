@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.mapper.ItemMapper">
+
+
+	<!--删除Item数据信息
+		单值: 数组  		collection="array"
+		单值: list集合	collection="list"
+		多值: 利用Param注解封装   collection="key".
+	-->
+
+	<delete id="deleteItemsById">
+		delete from tb_item
+		where  id in
+		(
+		<foreach collection="array" separator="," item="id">
+		#{id}
+		</foreach>
+		)
+
+	</delete>
+	
+</mapper>

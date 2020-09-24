@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3500e7f0-a9a9-4c41-abe3-b305f4a2986d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gthaA5ChqnpYUWVMrOhMb8B3Ot" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestMybatis.test02">
+    <configuration name="TestMybatis.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jt.test.TestMybatis" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testSelect02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.jt.test.TestMybatis" />
+      <option name="METHOD_NAME" value="testSelect02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.SpringBootRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMybatis.test02" />
+        <item itemvalue="JUnit.TestMybatis.testSelect02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3500e7f0-a9a9-4c41-abe3-b305f4a2986d" name="Default Changelist" comment="" />
+      <created>1598939856162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598939856162</updated>
+      <workItem from="1598939863318" duration="353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom" timestamp="1598940232149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598940232149" />
+    <state width="1876" height="269" key="GridCell.Tab.0.center" timestamp="1598940232148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598940232148" />
+    <state width="1876" height="269" key="GridCell.Tab.0.left" timestamp="1598940232148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598940232148" />
+    <state width="1876" height="269" key="GridCell.Tab.0.right" timestamp="1598940232148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598940232148" />
+    <state x="463" y="151" key="SettingsEditor" timestamp="1598940188908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598940188908" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+# Project exclude paths
+/JT/jt-cart/target/
+/JT/jt-common/target/
+/JT/jt-manage/target/
+/JT/jt-order/target/
+/JT/jt-sso/target/
+/JT/jt-web/target/
+/springboot_mybatis/target/

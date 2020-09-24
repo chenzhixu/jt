@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.mapper.UserMapper">
+
+
+
+
+	<!--当查询结果返回时会自己拼接包路径 com.jt.pojo.User
+		虽然使用了别名包，但是也可以自己指定包路径。
+		结论：自己不写则执行别名包，自己写了就执行自己的。
+		-->
+	<!--<select id="findAll" resultType="User">
+		select * from user
+	</select>-->
+
+
+
+	<!-- 需求：
+	   字段信息: user_id,user_name,user_age
+		对象属性: userId,userName,userAge
+	需求:查询数据库,实现数据的映射.
+	补充知识：ORM(Object Relation Mapping)
+	resultType:将数据库中的结果动态的封装为对象.
+		原则: 字段的名称必须与对象属性的名称一致.
+
+	  驼峰规则映射：
+	  目的：主要简化mybatis 映射的过程
+	  规则：user_id(字段)  ~~~ 去除下划线 ~~~之后首字母大写 .
+		注意：~~~之后与属性的名称一致,则可以正确的映射.
+	                            userid         userId
+	注意事项：一旦使用驼峰规则，必须满足条件
+	面试点: 如果开启了驼峰规则映射
+		问: 字段user_id 与对象属性user_id能否映射???  不能映射
+	  -->
+
+	<!--<select id="xxx" resultType="User">
+	执行的是sql,返回的是List<User>
+		select * from user
+	</select> -->
+
+
+</mapper>

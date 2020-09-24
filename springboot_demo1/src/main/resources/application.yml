@@ -1,0 +1,31 @@
+# 测试环境 /jt 端口号 8095    生产环境: /  端口号8090   配置必须完整.
+#设定默认的环境
+spring:
+  profiles:
+    active: test
+---
+# yml 1.key-value结构
+#     2.key-value之间使用": "方法链接
+#     3.YML配置文件有缩进的效果.
+#     4.YML配置文件默认采用utf-8编码.
+
+
+server:
+  port: 8090
+  servlet:
+    context-path: / #设置项目的发布路径
+
+ #配置图片的上传路径
+ #image:
+    # localDir: D:/JT-SOFT/images
+
+#设定分割线  表示多个环境配置
+---
+#设定环境名称
+spring:
+  profiles: test
+
+server:
+  servlet:
+    context-path: /jt  #设定项目发布路径
+  port: 8095

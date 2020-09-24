@@ -1,0 +1,29 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
+spring:
+  datasource:
+   #driver-class-name: com.mysql.jdbc.Driver   #这里将驱动注释了,采用默认的驱动方式
+    url: jdbc:mysql://127.0.0.1:3306/jtdb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: root
+
+#整合Mybatis plus
+mybatis-plus:
+  #定义别名包  将实体对象的包路径进行封装
+  type-aliases-package: com.jt.pojo
+  #添加xml文件依赖
+  mapper-locations: classpath:/mybatis/mappers/*.xml
+  #开启驼峰映射
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+#配置数据库日志
+
+
+logging:
+  level:
+    #打印那个包下的日志信息
+      com.jt.mapper: debug

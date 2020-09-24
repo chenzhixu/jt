@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/JT/jt-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/jt/jt-manager" />
+    <file type="web" url="file://$PROJECT_DIR$/JT/jt-web" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot_jsp02" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot_demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/jt/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jsp02/pom.xml" />
+        <option value="$PROJECT_DIR$/JT/pom.xml" />
+        <option value="$PROJECT_DIR$/JT/dubbo-jt/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/pom.xml" />
+        <option value="E:/Desktop/dubbo-jt/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/JT/dubbo-jt/pom.xml" />
+        <option value="$PROJECT_DIR$/JT/jt-sdd/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/dubbo-jt-demo-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-jt/pom.xml" />
+        <option value="$PROJECT_DIR$/jt/jt-common/pom.xml" />
+        <option value="$PROJECT_DIR$/jt/jt-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/jt/jt-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/jt/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/dubbo-jt-demo-consumer/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/dubbo-jt-demo-interface/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/dubbo-jt-demo-provider/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/dubbo-jt-demo-provider2/pom.xml" />
+        <option value="D:/study_note/cgb2005 第四阶段/京淘新版本资料/课上资料-配-文件/6-dubbo入门案例-dubbo实现sso-cart-order/1-dubbo入门案例/4-dubbo入门案例/dubbo-jt/pom.xml" />
+        <option value="E:/Desktop/dubbo-jt/dubbo-jt-demo-consumer/pom.xml" />
+        <option value="E:/Desktop/dubbo-jt/dubbo-jt-demo-interface/pom.xml" />
+        <option value="E:/Desktop/dubbo-jt/dubbo-jt-demo-provider/pom.xml" />
+        <option value="E:/Desktop/dubbo-jt/dubbo-jt-demo-provider2/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

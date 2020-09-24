@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jt</groupId>
+	<artifactId>springboot_jsp02</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>springboot_jsp02</name>
+	<description>Demo project for Spring Boot</description>
+
+	<!--parent标签作用: 定义了SpringBoot中所有关联项目的版本号信息.-->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.3.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+
+	<properties>
+		<java.version>1.8</java.version>
+		<!--项目打包时,跳过测试类打包-->
+		<skipTests>true</skipTests>
+	</properties>
+
+	<!--开箱即用:SpringBoot项目只需要引入少量的jar包及配置,即可拥有其功能.
+        spring-boot-starter 拥有开箱即用的能力.
+        maven项目中依赖具有传递性.
+            A 依赖  B  依赖 C项目   导入A bc会自动依赖
+    -->
+	<dependencies>
+		<!--直接依赖web springMVC配置-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<!--springBoot-start SpringBoot启动项  -->
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!--SpringBoot重构了测试方式 可以在测试类中 直接引入依赖对象-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!--支持热部署 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+
+		<!--引入插件lombok 自动的set/get/构造方法插件  -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
+		<!--引入数据库驱动 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!--springBoot数据库连接  -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<!--spring整合mybatis-plus 只导入MP包,删除mybatis包 -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+
+		<!--springBoot整合JSP添加依赖  -->
+		<!--servlet依赖 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+
+		<!--jstl依赖 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+
+		<!--使jsp页面生效 -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<!--在项目打包部署时生效,如果不添加build,则程序发布时不然会报
+        项目中没有main方法.
+    -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
